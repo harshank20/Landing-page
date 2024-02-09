@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    
+}
