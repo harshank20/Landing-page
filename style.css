@@ -4,10 +4,193 @@ body{
 }
 
 .top-container{
+    background-color: #1f2939;
     display: flex;
+    flex-direction: column;
+    padding: 20px 200px;
+    gap: 60px;
+    
 }
 
 .header{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
+
+.logo-img{
+    width: 70px;
+    height: 70px;
+}
+
+a{
+      margin: 10px;
+      text-decoration: none;
+      color: #e5e7eb;
+      font-size: 18px;
+}
+
+.breif-info{
+    display: flex;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.website-moto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    height: 250px;
+    flex-grow: 1;
+}
+
+   .primary-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0 ;
+    }
+
+    .secondary-text{
+    color: #e5e7eb;
+      font-size: 18px;
+      margin: 0 ;   
+    }
+
+     .header-button{
+      font-size: 15px;
+      background-color: #3882f6;
+      padding: 5px 25px;
+      border-radius: 8px;
+      border: 0;
+      color: white;
+      font-weight: 700;
+      margin-top: 10px;
+     }  
+
+.moto-img{
+    flex-grow: 1;
+    height: 250px;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-info-heading{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.product-img-text{
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+
+.product-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+/* .img-text{
+    display: flex;
+    flex-direction: column;
+} */
+
+.product-description{
+    width: 150px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.testimonial{
+  background-color: #e5e7eb;
+  padding: 10px 300px;
+}
+
+.testimonial-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;  
+    margin-bottom: 0px; 
+}
+
+.customer-name{
+    font-size: 25px;
+    font-weight: 800;
+    text-align: end;
+    margin-top: 0px;
+}
+
+.call-to-action{
+    display: flex;
+    background-color: #3882f6;
+    margin: 50px 150px;
+    padding: 10px 150px ;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-text{
+    color: white;
+}
+
+.call-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.call-text{
+    margin-top: 0%;
+}
+
+.action-button{
+    font-size: 20px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+    border: solid 1px white;
+   }
+
+   .footer{
+    background-color: #1f2939;
+    color: white;
+    text-align: center;
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
